@@ -1,0 +1,85 @@
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+    margin-right: -24px;
+    background: #000;
+    height: 80px;
+    justify-content: space-between;
+    padding: 0.5rem calc((100vw - 1000px) / 2);
+    z-index: 10
+}
+.navLink { 
+    color: #fff;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 0 1rem;
+    height: 100%;
+    cursor: pointer;
+}
+
+    /* &.active{
+        color: #15cdfc;
+    }
+`; */
+/* .Bars {
+    display: none;
+    color: #fff;
+}
+    @media screen and (max-width: 768px) {
+        .navbar{
+            display: bock;
+            position: absolute;
+            top: 0;
+            right: 0;
+            transform: translate(-100%, 75%);
+            font-size: 1.8rem;
+            cursor: pointer;
+        }
+
+    } */
+
+
+/* .navMenu {
+    display: flex;
+    align-items: center;
+    margin-right: -24px;
+} */
+    /* @media screen and (max-width: 768px) {
+        .navbar{
+        display: none;
+        }
+    } */
+
+
+
+
+    @media screen and (max-width: 768px) {
+        .button{
+            display: none;
+        }
+        
+    }
+
+
+ .button {
+    display: flex;
+    align-items: center;
+    margin-right: 24px;
+    border-radius: 4px;
+    background: #256;
+    padding: 10px 22px;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+ }
+    .button:hover {
+        transition: all 0.2s ease-in-out;
+        background: #fff;
+        color: #010605;
+    }
